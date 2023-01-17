@@ -1,4 +1,7 @@
 # :triangular_flag_on_post: Projeto - Formulário de cadastro
+<p align="center">
+<img src="https://media.giphy.com/media/4Ob8U816aW6LTDDk4c/giphy.gif" width="700px">
+<p/>
 
 
 # :speech_balloon: Sobre
@@ -29,7 +32,7 @@ $ No arquivo Html, clicar com botão direito do mouse e clicar em liver server, 
 
 # :closed_book: Licença
 
-Lançado em 2022. Este projeto está sob a ![APM](https://img.shields.io/apm/l/dev)<br>
+Lançado em 2023. Este projeto está sob a ![APM](https://img.shields.io/apm/l/dev)<br>
 Made with love by [Cibele Cordeiro](https://github.com/Cibell) 💜🚀
 
 
