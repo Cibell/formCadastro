@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Consulta CEP</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="jquery-requisicao-ajax.js"></script>
+  <script type="text/javascript" scr="jquery-requisicao-ajax.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://rawgit.com/digitalBush/jquery.maskedinput/1.4.1/dist/jquery.maskedinput.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.mask.min.js"></script>
+  <script src="./js/jquery.validate.js"></script>
+  <script src="/js/localization/messages_pt_BR.js"></script>
+  
+
+  <style type="text/css">
+    .container {
+      padding: 60px;
+
+    }
+
+    .error{
+            color: red;
+            
+        }
+  </style>
+</head>
+
+<body>
+
+  
+
+  <div class="container">
+
+    <div class="page-header">
+      <h3 align="center">Formulário de Cadastro</h3>
+    </div>
+
+
+    <form id="formCadastro">
+
+      <div class="form-group">
+        <label class="font-weight-bold">Nome</label>
+        <input type="text" id="nome" name="nome" placeholder="Nome" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label class="font-weight-bold">Data de Nascimento</label>
+        <input type="date" id="data" name="data"  class="form-control" >
+      </div>
+
+      <div class="form-group">
+        <label class="font-weight-bold">CPF</label>
+        <input type="text" id="cpf" name="cpf" placeholder="CPF"  class="form-control" >
+      </div>
+
+      <div class="form-group">
+        <label class="font-weight-bold">Telefone</label>
+        <input type="text" id="tel" name="tel" placeholder="Telefone"  class="form-control" >
+      </div>
+
+      <div class="form-group">
+        <label class="font-weight-bold">E-mail</label>
+        <input type="text" id="email" name="email" placeholder="E-mail" class="form-control" >
+      </div>
+      <br>
+
+      <div class="form-group">
+        <label class="font-weight-bold">CEP</label>
+        <input type="text" id="cep" class="form-control" placeholder="Digite o CEP aqui">
+      </div>
+      <button id="btBuscar" class="btn btn-default btn-block btn-primary">Buscar </button>
+      <br>
+    
+    <div class="form-group">
+      <label class="font-weight-bold">Logradouro</label>
+      <input type="text" id="logradouro" name="logradouro" placeholder="Logradouro" class="form-control">
+    </div>
+   
+
+    <div class="form-group">
+      <label class="font-weight-bold">Complemento</label>
+      <input type="text" id="complemento" name="complemento" placeholder="Complemento" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label class="font-weight-bold">Bairro</label>
+      <input type="text" id="bairro" name="bairro" placeholder="Bairro" class="form-control">
+    </div>
+   
+
+
+    <div class="form-group">
+      <label class="font-weight-bold">UF</label>
+      <input type="text" id="uf" name="uf" placeholder="UF" class="form-control">
+    </div>
+    
+
+
+    <div class="form-group">
+      <label class="font-weight-bold">Cidade</label>
+      <input type="text" id="cidade" name="cidade" placeholder="Cidade" class="form-control">
+    </div>
+   
+
+    <div class="form-group pb-3">
+      <label class="font-weight-bold">Bio:</label>
+      <textarea class="form-control" name="bio"  id="bio" placeholder="Digite sua biografia"></textarea>
+  </div>
+ 
+
+    <button id="btSubmit" class="btn btn-default btn-block btn-primary">Enviar </button>
+    </form>
+    
+
+</body>
+
+</html>
